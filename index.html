@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Japanese with Yuri</title>
+<meta name="description" content="Japanese with Yuri — a Japanese learning app for JLPT N5 to N1: words, kanji, grammar, practice tests and real-life conversation practice.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M24 18H76A14 14 0 0 1 90 32V62A14 14 0 0 1 76 76H44L28 89L30 76H24A14 14 0 0 1 10 62V32A14 14 0 0 1 24 18Z' fill='%234F8A73'/%3E%3C/svg%3E">
+<style>
+:root{--bg:#EEF2EC;--surface:#F8FAF6;--ink:#26332D;--muted:#5F6E66;--line:#D5DDD6;--accent:#4F8A73;--accent-ink:#fff;--soft:#DCE9E1;--flame:#D07A4F}
+@media (prefers-color-scheme:dark){:root{--bg:#18201D;--surface:#212B27;--ink:#E2EAE5;--muted:#9BAAA2;--line:#33413B;--accent:#7FB89F;--accent-ink:#13201A;--soft:#2A3A33;--flame:#E0936B}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans","Noto Sans KR","Noto Sans JP","Noto Sans Thai","Noto Sans TC",sans-serif;line-height:1.65}
+.wrap{max-width:760px;margin:0 auto;padding:20px max(16px,env(safe-area-inset-left)) 56px}
+nav{display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end;margin-bottom:28px}
+nav button{border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:999px;padding:5px 11px;font:inherit;font-size:13px;cursor:pointer}
+nav button.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.hero{display:flex;gap:18px;align-items:center;margin-bottom:22px}
+.hero svg{flex:none}
+h1{font-size:30px;line-height:1.2;margin:0}
+.tag{margin:6px 0 0;color:var(--muted);font-size:16px}
+.play{display:inline-flex;align-items:center;gap:10px;margin:8px 0 30px;padding:12px 20px;border-radius:14px;background:var(--accent);color:var(--accent-ink);font-weight:700;text-decoration:none}
+.play svg{width:20px;height:20px}
+.soon{display:block;color:var(--muted);font-size:13px;margin:-22px 0 30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-bottom:34px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:16px}
+.card .ic{font-size:26px;line-height:1}
+.card b{display:block;margin:8px 0 4px;font-size:16px}
+.card p{margin:0;color:var(--muted);font-size:14px}
+h2{font-size:18px;margin:0 0 10px}
+.info{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:16px 18px;margin-bottom:16px}
+.info p{margin:4px 0;font-size:14.5px}.info a{color:var(--accent);word-break:break-all}
+footer{margin-top:28px;font-size:12.5px;color:var(--muted)}
+footer a{color:var(--muted)}
+section[hidden]{display:none}
+</style></head><body><div class="wrap">
+<nav aria-label="Language"><button data-l="en">English</button><button data-l="ko">한국어</button><button data-l="vi">Tiếng Việt</button><button data-l="id">Bahasa Indonesia</button><button data-l="th">ไทย</button><button data-l="tl">Filipino</button><button data-l="zt">繁體中文</button></nav>
+<div class="hero"><svg width="76" height="76" viewBox="0 0 100 100" aria-hidden="true"><path d="M24 18 H76 A14 14 0 0 1 90 32 V62 A14 14 0 0 1 76 76 H44 L28 89 L30 76 H24 A14 14 0 0 1 10 62 V32 A14 14 0 0 1 24 18 Z" fill="var(--accent)"/><text x="50" y="62" text-anchor="middle" font-family="Noto Sans JP, sans-serif" font-weight="900" font-size="38" fill="var(--accent-ink)">ゆ</text><circle cx="84" cy="22" r="9" fill="var(--flame)"/></svg>
+<div><h1>Japanese with Yuri</h1><p class="tag" data-t="tag"></p></div></div>
+<a class="play" href="https://play.google.com/store/apps/details?id=com.japanesewithyuri.android" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 2.5v19l10-9.5L4 2.5zm11.4 10.8l2.6 2.5-11 6.2 8.4-8.7zm0-2.6L7 2l11 6.2-2.6 2.5zm3.9-1.6l2.7 1.5c.7.4.7 1.4 0 1.8l-2.7 1.5L16.6 12l2.7-2.9z"/></svg><span data-t="play"></span></a>
+<div class="grid">
+ <div class="card"><div class="ic">📚</div><b data-t="f1t"></b><p data-t="f1s"></p></div>
+ <div class="card"><div class="ic">📞</div><b data-t="f2t"></b><p data-t="f2s"></p></div>
+ <div class="card"><div class="ic">📝</div><b data-t="f3t"></b><p data-t="f3s"></p></div>
+ <div class="card"><div class="ic">🌏</div><b data-t="f4t"></b><p data-t="f4s"></p></div>
+</div>
+<div class="info"><h2 data-t="about"></h2><p data-t="aboutS"></p><p><span data-t="contact"></span>: <a href="mailto:khd768576@gmail.com">khd768576@gmail.com</a></p></div>
+<div class="info"><h2 data-t="legal"></h2>
+ <p><a href="yuri-terms/privacy.html" data-t="privacy"></a></p>
+ <p><a href="yuri-terms/delete.html" data-t="delete"></a></p>
+ <p><a href="yuri-terms/licenses.html" data-t="lic"></a></p></div>
+<footer><p data-t="jlpt"></p><p>© 2026 Japanese with Yuri</p></footer>
+</div>
+<script>
+const T={
+en:{tag:"Learn Japanese for the JLPT, N5 to N1",play:"Get it on Google Play",f1t:"Words, kanji and grammar",f1s:"Every JLPT level from N5 to N1, with example sentences, readings and stroke order.",f2t:"Real-life conversation",f2s:"Speak Japanese in everyday situations, like a café or a station, with Yuri and Ken.",f3t:"JLPT-style practice",f3s:"Practice tests in the JLPT question formats, with explanations.",f4t:"7 languages",f4s:"English, Korean, Vietnamese, Indonesian, Thai, Filipino and Traditional Chinese.",about:"About us",aboutS:"Japanese with Yuri is an app and YouTube channel made by an individual developer in Japan.",contact:"Contact",legal:"Policies",privacy:"Terms of Service & Privacy Policy",delete:"Delete your account and data",lic:"Licenses and data sources",jlpt:"\"JLPT\" means the Japanese-Language Proficiency Test. This app is not affiliated with or endorsed by the Japan Foundation or JEES."},
+ko:{tag:"JLPT N5부터 N1까지, 일본어 공부",play:"Google Play에서 받기",f1t:"단어·한자·문법",f1s:"JLPT N5부터 N1까지 모든 레벨을 예문, 읽기, 획순과 함께 공부해요.",f2t:"실전 회화",f2s:"카페, 역 같은 일상 장면에서 유리·켄과 일본어로 말해 봐요.",f3t:"JLPT 형식 연습",f3s:"JLPT 문제 형식 그대로 풀고 해설을 확인해요.",f4t:"7개 언어",f4s:"영어, 한국어, 베트남어, 인도네시아어, 태국어, 필리핀어, 번체 중국어를 지원해요.",about:"소개",aboutS:"Japanese with Yuri는 일본에 사는 개인 개발자가 만드는 앱과 유튜브 채널이에요.",contact:"문의",legal:"정책",privacy:"이용약관 및 개인정보 처리방침",delete:"계정과 데이터 삭제",lic:"라이선스·데이터 출처",jlpt:"\"JLPT\"는 일본어능력시험을 말해요. 이 앱은 국제교류기금 및 일본국제교육지원협회(JEES)와 관련이 없으며 이들의 승인을 받지 않았어요."},
+vi:{tag:"Học tiếng Nhật luyện thi JLPT, từ N5 đến N1",play:"Tải trên Google Play",f1t:"Từ vựng, kanji và ngữ pháp",f1s:"Mọi cấp độ JLPT từ N5 đến N1, kèm câu ví dụ, cách đọc và thứ tự nét.",f2t:"Hội thoại thực tế",f2s:"Nói tiếng Nhật trong các tình huống hằng ngày như quán cà phê, nhà ga cùng Yuri và Ken.",f3t:"Luyện đề kiểu JLPT",f3s:"Làm bài theo dạng đề JLPT và xem giải thích.",f4t:"7 ngôn ngữ",f4s:"Tiếng Anh, Hàn, Việt, Indonesia, Thái, Philippines và Trung phồn thể.",about:"Giới thiệu",aboutS:"Japanese with Yuri là ứng dụng và kênh YouTube do một nhà phát triển cá nhân tại Nhật Bản thực hiện.",contact:"Liên hệ",legal:"Chính sách",privacy:"Điều khoản dịch vụ & Chính sách quyền riêng tư",delete:"Xóa tài khoản và dữ liệu",lic:"Giấy phép và nguồn dữ liệu",jlpt:"\"JLPT\" là Kỳ thi Năng lực Nhật ngữ. Ứng dụng này không liên kết và không được Japan Foundation hay JEES chấp thuận."},
+id:{tag:"Belajar bahasa Jepang untuk JLPT, N5 sampai N1",play:"Dapatkan di Google Play",f1t:"Kosakata, kanji, tata bahasa",f1s:"Semua level JLPT dari N5 sampai N1, dengan contoh kalimat, cara baca, dan urutan goresan.",f2t:"Percakapan nyata",f2s:"Berbicara bahasa Jepang dalam situasi sehari-hari seperti kafe atau stasiun bersama Yuri dan Ken.",f3t:"Latihan gaya JLPT",f3s:"Kerjakan soal dengan format JLPT dan lihat penjelasannya.",f4t:"7 bahasa",f4s:"Inggris, Korea, Vietnam, Indonesia, Thai, Filipino, dan Mandarin Tradisional.",about:"Tentang kami",aboutS:"Japanese with Yuri adalah aplikasi dan kanal YouTube yang dibuat oleh pengembang perorangan di Jepang.",contact:"Kontak",legal:"Kebijakan",privacy:"Ketentuan Layanan & Kebijakan Privasi",delete:"Hapus akun dan data",lic:"Lisensi dan sumber data",jlpt:"\"JLPT\" adalah Japanese-Language Proficiency Test. Aplikasi ini tidak berafiliasi dengan dan tidak disetujui oleh Japan Foundation maupun JEES."},
+th:{tag:"เรียนภาษาญี่ปุ่นเพื่อสอบ JLPT ตั้งแต่ N5 ถึง N1",play:"ดาวน์โหลดบน Google Play",f1t:"คำศัพท์ คันจิ ไวยากรณ์",f1s:"ครบทุกระดับ JLPT ตั้งแต่ N5 ถึง N1 พร้อมประโยคตัวอย่าง เสียงอ่าน และลำดับขีด",f2t:"บทสนทนาจริง",f2s:"ฝึกพูดภาษาญี่ปุ่นในสถานการณ์ประจำวัน เช่น คาเฟ่หรือสถานีรถไฟ กับยูริและเคน",f3t:"ฝึกโจทย์แบบ JLPT",f3s:"ทำโจทย์ตามรูปแบบข้อสอบ JLPT พร้อมคำอธิบาย",f4t:"7 ภาษา",f4s:"อังกฤษ เกาหลี เวียดนาม อินโดนีเซีย ไทย ฟิลิปปินส์ และจีนตัวเต็ม",about:"เกี่ยวกับเรา",aboutS:"Japanese with Yuri คือแอปและช่อง YouTube ที่สร้างโดยนักพัฒนาอิสระในญี่ปุ่น",contact:"ติดต่อ",legal:"นโยบาย",privacy:"ข้อกำหนดการให้บริการและนโยบายความเป็นส่วนตัว",delete:"ลบบัญชีและข้อมูล",lic:"สัญญาอนุญาตและแหล่งข้อมูล",jlpt:"\"JLPT\" หมายถึงการสอบวัดระดับความสามารถทางภาษาญี่ปุ่น แอปนี้ไม่มีส่วนเกี่ยวข้องและไม่ได้รับการรับรองจาก Japan Foundation หรือ JEES"},
+tl:{tag:"Mag-aral ng Japanese para sa JLPT, N5 hanggang N1",play:"Kunin sa Google Play",f1t:"Salita, kanji at grammar",f1s:"Lahat ng JLPT level mula N5 hanggang N1, may halimbawang pangungusap, basa at stroke order.",f2t:"Totoong usapan",f2s:"Magsalita ng Japanese sa araw-araw na sitwasyon, gaya ng café o istasyon, kasama sina Yuri at Ken.",f3t:"Praktis na parang JLPT",f3s:"Sagutan ang mga tanong sa format ng JLPT at basahin ang paliwanag.",f4t:"7 wika",f4s:"English, Korean, Vietnamese, Indonesian, Thai, Filipino at Traditional Chinese.",about:"Tungkol sa amin",aboutS:"Ang Japanese with Yuri ay app at YouTube channel na gawa ng isang indibidwal na developer sa Japan.",contact:"Contact",legal:"Mga patakaran",privacy:"Mga Tuntunin ng Serbisyo at Patakaran sa Privacy",delete:"Burahin ang account at data",lic:"Mga lisensya at pinagmulan ng data",jlpt:"Ang \"JLPT\" ay ang Japanese-Language Proficiency Test. Hindi kaugnay at hindi inaprubahan ng Japan Foundation o ng JEES ang app na ito."},
+zt:{tag:"日語學習，從 JLPT N5 到 N1",play:"在 Google Play 下載",f1t:"單字、漢字、文法",f1s:"涵蓋 JLPT N5 到 N1 所有級別，附例句、讀音與筆順。",f2t:"實戰會話",f2s:"和由莉、健一起，在咖啡廳、車站等日常情境中開口說日語。",f3t:"JLPT 題型練習",f3s:"依照 JLPT 題型作答並查看解說。",f4t:"7 種語言",f4s:"英文、韓文、越南文、印尼文、泰文、菲律賓文與繁體中文。",about:"關於我們",aboutS:"Japanese with Yuri 是由住在日本的個人開發者製作的 App 與 YouTube 頻道。",contact:"聯絡方式",legal:"政策",privacy:"服務條款與隱私權政策",delete:"刪除帳號與資料",lic:"授權與資料來源",jlpt:"「JLPT」指日本語能力試驗。本 App 與國際交流基金及日本國際教育支援協會（JEES）無關，也未經其認可。"}};
+const HL={en:"en",ko:"ko",vi:"vi",id:"id",th:"th",tl:"fil",zt:"zh-Hant"};
+function pick(l){ if(!T[l]) l="en"; document.documentElement.lang=HL[l];
+  document.querySelectorAll("[data-t]").forEach(e=>{ e.textContent=T[l][e.dataset.t]; });
+  document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("on",b.dataset.l===l));
+  try{localStorage.setItem("jwy-site-lang",l);}catch(e){} }
+document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>pick(b.dataset.l));
+let want="en"; try{ want=new URLSearchParams(location.search).get("lang")||localStorage.getItem("jwy-site-lang")||""; }catch(e){}
+if(!want){ const n=(navigator.language||"en").toLowerCase(); want=n.startsWith("ko")?"ko":n.startsWith("vi")?"vi":n.startsWith("id")||n.startsWith("in")?"id":n.startsWith("th")?"th":n.startsWith("fil")||n.startsWith("tl")?"tl":n.startsWith("zh")?"zt":"en"; }
+pick(want);
+</script>
+</body></html>
